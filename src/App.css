@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: monospace;
+    color: rgb(255, 8, 8);
+}
+
+h1::first-letter{
+    color: rgb(151, 255, 142);
+    font-size: 2em;
+    font-style: oblique;
+    text-decoration-line: underline;
+    text-decoration-color: cornflowerblue;
+}
